@@ -38,13 +38,20 @@ header {
 
 nav {
     margin-left: auto;
+    display: flex;
+    
 }
 
-nav a {
-    padding-left: 30px;
+
+nav ul li{
+    padding-left: 35px;
+    color: rgba(133, 130, 130);
+    float: left;
+}
+
+a {
     color: rgba(133, 130, 130)
 }
-
 a:hover{
     color: #82cac7;
 }
@@ -57,14 +64,12 @@ a:hover{
     border: solid 1px #dddddd;
 }
 
-
 #line {
     width: 100%;
     height: 8px;
     margin-top: 50px;
     background-color: #4aaaa5;
 }
-
 
 footer {
     height: 84px;
@@ -73,10 +78,6 @@ footer {
 
 }
 
-.ftimg {
-    float: left;
-    margin: 0 20px 5px 0;
-}
 #copyright {
     text-align:center; 
     color: #fff;
@@ -97,3 +98,12 @@ hr {
     border-top: 2px solid #d3d2d2;
 }
 
+img {
+    height: 125px;
+    width: 175px;
+    margin: 0 20px 25px 0;
+}
+
+tr td {
+   padding-right: 4px;
+}
