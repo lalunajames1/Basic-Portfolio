@@ -107,3 +107,31 @@ img {
 tr td {
    padding-right: 4px;
 }
+
+.float-img {
+    float: left;
+    position: relative;
+}
+
+.stripe {
+    position: absolute;
+    width: 175px;
+    height: 40px;
+    background-color: rgba(65, 185, 179, 0.7);
+    bottom: 33px;
+    color:white;
+    text-align: center;
+    line-height: 40px;
+
+}
+/*
+.clearfix::after{
+    clear: both;
+    display: block;
+}
+
+*/
+table{
+    clear:both;
+}
+
